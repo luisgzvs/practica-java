@@ -12,6 +12,7 @@ package practica;
 public class Practica {
 
     private int resultado = 0;
+    
 
     public void ContadorFor(int x) {
 
@@ -56,14 +57,20 @@ public class Practica {
     public static void main(String[] args) {
         // TODO code application logic here
 
-        Practica instanciaPractica = new Practica();
+        /*Practica instanciaPractica = new Practica();
         
         ejercicios instanciaEjercicios = new ejercicios();
 
         instanciaPractica.ContadorFor(5);
         instanciaPractica.ContadorWhile(5);
         instanciaPractica.ContadorRecursivo(5);
-        //instanciaEjercicios.ContadorFor(5);
+        instanciaEjercicios.ContadorFor(5);
+        */
+        
+        Arreglos array = new Arreglos();
+        
+        System.out.println("Indigente = " + array.imprimirNombre() + " " + array.imprimirApellido());
+        System.out.println("Edad: " +  array.seleccionarEdad());
 
     }
 
